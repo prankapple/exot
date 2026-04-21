@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exot - Descoperă Fructe Exotice</title>
+    <link rel="stylesheet" href="/css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>🌴 Exot</h1>
+            <p class="subtitle">Descoperă lumea fascinantă a fructelor exotice</p>
+        </header>
+
+        <main>
+            <div class="search-section">
+                <div class="search-box">
+                    <input type="text" id="fruitInput" placeholder="Scrie numele unui fruct exotic...">
+                    <button id="searchBtn">Caută</button>
+                </div>
+                <p class="hint">Încearcă: dragon fruit, durian, rambutan, mangosteen, lychee...</p>
+            </div>
+
+            <div id="loading" class="loading hidden">
+                <div class="spinner"></div>
+                <p>Căutăm informații...</p>
+            </div>
+
+            <div id="result" class="result hidden">
+                <div class="fruit-card">
+                    <div class="card-header">
+                        <img id="fruitImage" src="" alt="">
+                        <div class="card-title">
+                            <h2 id="fruitName"></h2>
+                            <span id="fruitOrigin" class="origin"></span>
+                        </div>
+                    </div>
+
+                    <div class="card-body">
+                        <section class="info-section">
+                            <h3>📝 Descriere</h3>
+                            <p id="fruitDescription"></p>
+                        </section>
+
+                        <section class="info-section">
+                            <h3>💚 Beneficii pentru sănătate</h3>
+                            <ul id="fruitBenefits"></ul>
+                        </section>
+
+                        <section class="info-section">
+                            <h3>🍽️ Cum să mănânci</h3>
+                            <p id="fruitHowTo"></p>
+                        </section>
+
+                        <div class="info-grid">
+                            <div class="info-item">
+                                <span class="icon">📅</span>
+                                <div>
+                                    <strong>Sezon</strong>
+                                    <p id="fruitSeason"></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div id="error" class="error hidden">
+                <p id="errorMessage"></p>
+                <div id="suggestions" class="suggestions"></div>
+            </div>
+
+            <section class="gallery-section">
+                <h2>🥭 Toate Fructele Exotice</h2>
+                <div id="fruitGallery" class="fruit-gallery"></div>
+            </section>
+        </main>
+
+        <footer>
+            <p>🌺 Exot - Descoperă arome din întreaga lume 🌺</p>
+        </footer>
+    </div>
+
+    <script src="/js/app.js"></script>
+</body>
+</html>
