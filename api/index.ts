@@ -90,7 +90,7 @@ const fructeExotice: Record<string, FruitInfo> = {
     beneficii: ['Vitamina C și P', 'Antioxidanți', 'Beta-caroten', 'Fibre'],
     cumSaMananci: 'Scoate din husa de hârtie și mănâncă proaspete sau în deserturi și salate.',
     sezon: 'Iulie - Octombrie',
-    imagine: 'https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/Physalis_peruviana_fruits.jpg/640px-Physalis_peruviana_fruits.jpg'
+    imagine: 'https://upload.wikimedia.org/wikipedia/commons/c/c0/PhysalisAlkekengi-plant1.jpg'
   },
   'longan': {
     nume: 'Longan',
@@ -99,7 +99,7 @@ const fructeExotice: Record<string, FruitInfo> = {
     beneficii: ['Calmant natural', 'Vitamina C', 'Bun pentru somn', 'Antiinflamator'],
     cumSaMananci: 'Coaje coaja și mănâncă pulpa albă. Sâmburele se îndepărtează.',
     sezon: 'Iulie - Septembrie',
-    imagine: 'https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Longan_fruits.jpg/640px-Longan_fruits.jpg'
+    imagine: 'https://upload.wikimedia.org/wikipedia/commons/2/2d/Dimocarpus_longan_fruits.jpg'
   },
   'guava': {
     nume: 'Guava',
@@ -108,7 +108,7 @@ const fructeExotice: Record<string, FruitInfo> = {
     beneficii: ['Vitamina C de 4 ori mai mult decât portocala', 'Fibre', 'Licopen', 'Digestie sănătoasă'],
     cumSaMananci: 'Se poate mânca întreg, cu coajă și semințe sau în smoothie-uri și jeleuri.',
     sezon: 'Tot anul în zone tropicale',
-    imagine: 'https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/Guava_cross_section.jpg/640px-Guava_cross_section.jpg'
+    imagine: 'https://upload.wikimedia.org/wikipedia/commons/a/aa/Guava_%282880259%29.jpg'
   },
   'sapodilla': {
     nume: 'Sapodilla',
@@ -117,7 +117,7 @@ const fructeExotice: Record<string, FruitInfo> = {
     beneficii: ['Energizant', 'Fibre', 'Antioxidanți', 'Bun pentru digestie'],
     cumSaMananci: 'Coajă și mănâncă pulpa moale. Semințele negre se îndepărtează.',
     sezon: 'Ianuarie - Iunie',
-    imagine: 'https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Manilkara_zapota_fruits.jpg/640px-Manilkara_zapota_fruits.jpg'
+    imagine: 'https://upload.wikimedia.org/wikipedia/commons/1/14/Sapodilla_fruit%2A.jpg'
   },
   'custard apple': {
     nume: 'Guanabana / Custard Apple',
@@ -126,7 +126,7 @@ const fructeExotice: Record<string, FruitInfo> = {
     beneficii: ['Vitamina B6', 'Potasiu', 'Magneziu', 'Antioxidanți'],
     cumSaMananci: 'Taie-l și scoate pulpa cu lingura. Îndepărtează semințele negre mari.',
     sezon: 'Iunie - Octombrie',
-    imagine: 'https://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/Sugar-apple_cross_section.jpg/640px-Sugar-apple_cross_section.jpg'
+    imagine: 'https://upload.wikimedia.org/wikipedia/commons/3/30/Guanabana_cerca_de_la_represa.jpg'
   },
   'breadfruit': {
     nume: 'Breadfruit (Fructul de pâine)',
@@ -135,7 +135,7 @@ const fructeExotice: Record<string, FruitInfo> = {
     beneficii: ['Carbohidrați complecși', 'Fibre', 'Vitamina C', 'Potasiu'],
     cumSaMananci: 'Se gătește coapt, fiert sau prăjit. Se servește ca înlocuitor al pâinii sau cartofilor.',
     sezon: 'Iulie - Februarie',
-    imagine: 'https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Breadfruit.jpg/640px-Breadfruit.jpg'
+    imagine: 'https://upload.wikimedia.org/wikipedia/commons/5/57/Artocarpus_altilis_%28fruit%29.jpg'
   },
   'rose apple': {
     nume: 'Rose Apple (Jambu)',
@@ -144,7 +144,7 @@ const fructeExotice: Record<string, FruitInfo> = {
     beneficii: ['Hidratant', 'Vitamina C', 'Calorii scăzute', 'Detoxifiant'],
     cumSaMananci: 'Mănâncă-l crud, întreg sau tăiat în felii. Coaja este comestibilă.',
     sezon: 'Aprilie - Iunie',
-    imagine: 'https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Syzygium_jambos_fruits.jpg/640px-Syzygium_jambos_fruits.jpg'
+    imagine: 'https://upload.wikimedia.org/wikipedia/commons/b/b4/Wax_apple_close_up.jpg'
   },
   'tamarillo': {
     nume: 'Tamarillo (Tomatillo arbore)',
@@ -153,7 +153,7 @@ const fructeExotice: Record<string, FruitInfo> = {
     beneficii: ['Vitamina A', 'Vitamina C', 'Luteină', 'Potasiu'],
     cumSaMananci: 'Taie-l și scoate pulpa cu lingura. Coaja este amară și se îndepărtează.',
     sezon: 'Mai - Octombrie',
-    imagine: 'https://upload.wikimedia.org/wikipedia/commons/thumb/f/f5/Tamarillo_fruits.jpg/640px-Tamarillo_fruits.jpg'
+    imagine: 'https://upload.wikimedia.org/wikipedia/commons/2/22/Tamarillos_-_whole_and_halved.jpg'
   }
 };
 
